@@ -8,7 +8,7 @@ class Duplicate2{
 
       if(!visited[ch]){
         System.out.print(ch);
-        visited[ch] = true;
+        visited[ch] = true;// remove duplicates
       }
     }
   }
